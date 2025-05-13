@@ -1,0 +1,13 @@
+{
+  "name": "@kemetitch/shared-styles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "style": "src/styles.scss",
+  "files": [
+    "src"
+  ],
+  "scripts": {},
+  "peerDependencies": {
+    "sass": "^1.0.0"
+  }
+}
