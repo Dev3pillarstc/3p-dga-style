@@ -1,13 +1,5 @@
-// shared-styles/src/styles.scss
-
-$primary-color: #007bff;
-
-@mixin default-padding {
-  padding: 1rem;
-}
-
 .my-shared-button {
-  background-color: $primary-color;
+  background-color: red;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
