@@ -1,12 +1,20 @@
 {
-  "name": "@kemetitch/shared-styles",
-  "version": "1.0.1",
+  "name": "@3p-dga-style/shared-styles",
+  "version": "1.3.4",
   "main": "index.js",
   "style": "src/styles.scss",
   "files": [
-    "src"
+    "src",
+    "scripts/setup-tailwind-postcss.js"
   ],
-  "scripts": {},
+  "scripts": {
+    "postinstall": "node ./scripts/setup-tailwind-postcss.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "@tailwindcss/postcss": "^4.1.6",
+    "tailwindcss": "^4.1.6"
+  },
   "peerDependencies": {
     "sass": "^1.0.0"
   }
